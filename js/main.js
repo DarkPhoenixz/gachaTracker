@@ -28,16 +28,16 @@ function load(){
     var daily = document.getElementsByClassName("daily");
     var resine = document.getElementsByClassName("resine");
 
-    const now = new Date();
-    const hours = now.getHours();
-    const mins = now.getMinutes()
+    // const now = new Date();
+    // const hours = now.getHours();
+    // const mins = now.getMinutes()
     
-    if(hours >= "4"){
-        for (const d of daily) {
-            var id = d.id;
-            localStorage.setItem(id, "false");
-        }   
-    }
+    // if(hours >= "4"){
+    //     for (const d of daily) {
+    //         var id = d.id;
+    //         localStorage.setItem(id, "false");
+    //     }   
+    // }
 
 
     for (const d of daily) {
