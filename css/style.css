@@ -1,0 +1,154 @@
+body{
+    color: white;
+    font-family: sans-serif;
+    background-color: #1e1e1e;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 50px;
+}
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 26px;
+    font-weight: bold;
+    backdrop-filter: blur(20px);
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px 50px black;
+}
+
+
+.card, .cardContent {
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.card{
+    height: 70%;
+    width: 400px;
+    border: none;
+
+}
+
+#hsrCard{
+    background-image: url("../img/hsr.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#wuwaCard{
+    background-image: url("../img/wuwa.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#zzzCard{
+    background-image: url("../img/zzz.jpg");
+    background-size: cover;
+    background-position: 80%;
+}
+
+.cardTitle{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardContent {
+    flex-direction: row;
+    height: 90%;
+    width: 90%;
+    backdrop-filter: blur(4px);
+    border: none;
+    box-shadow: 1px 1px 10px black;
+}
+
+.frame {
+    padding: 20px;
+    width: calc(90%/2);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    
+    border-radius: 10px;
+    background-color: #9fc6fdc5;
+    color: black;
+    font-weight: bold;
+}
+
+
+button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+}
+
+button:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+.check{
+    background-color: lightgreen;
+    color: black;
+    
+}
+
+.divisor{
+    width: 95%;
+    border: 1px solid grey;
+}
+
+.time{
+    color: white;
+}
+
